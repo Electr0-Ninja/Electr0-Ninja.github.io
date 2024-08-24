@@ -35,7 +35,7 @@
   }
 
   body{
-    min-height: 100vh;
+    min-height: 97vh; /* made it like this remove scroll bar on right*/
     background: radial-gradient(#2D2B7A , #1C0F35);
     background-image: url(background.png);
     background-size: cover;
@@ -48,6 +48,7 @@
   .glass-container{
     padding: 20px;
     /* height: 500px; */
+    height: 630px; /* also to remove the scroll bar to the right */
     width: 400px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.05);
