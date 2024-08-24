@@ -105,3 +105,20 @@
       #city,#gender{
         width: 106% !important;
       }
+      @media screen and (max-width:600px) {
+        .glass-container {
+                width: 80vw;
+                padding: 15px 10px;
+            }
+            form {
+                padding: 20px;
+            }
+            input, select {
+                padding: 8px;
+            }
+            #city,#gender{
+              width: 104% !important;
+            }
+            
+        }
+      
