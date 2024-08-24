@@ -18,6 +18,7 @@
     z-index: -1;
     padding: 3px;
     border-radius: 30px;
+    margin-left: 10px;
     animation: 3s spin linear infinite;
   }
   .rainbow::before{
@@ -94,9 +95,12 @@
           margin-top: 20px;
           position: relative;
           border-radius: 30px;
+          width: 100%;
+          margin-left: 10px;
+          
       }
       input[type="submit"]:hover {
-          background-color: #1c0f356b;
+          background-color: #c5b6dfd2;
       }
       #city,#gender{
         width: 106% !important;
