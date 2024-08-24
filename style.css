@@ -33,9 +33,10 @@
       --angle: 360deg;
     }
   }
-
+/* *{margin: 0;
+padding: 0;} */
   body{
-    min-height: 97vh; /* made it like this remove scroll bar on right*/
+    min-height: 97vh; /* made it like this remove scroll bar on right(old just needed to add margin 0 and padding 0) (both will work)*/
     background: radial-gradient(#2D2B7A , #1C0F35);
     background-image: url(background.png);
     background-size: cover;
@@ -48,8 +49,11 @@
   .glass-container{
     padding: 20px;
     /* height: 500px; */
-    height: 630px; /* also to remove the scroll bar to the right */
+    height: 90vh; /* also to remove the scroll bar to the right(old was using 630px) now vh and vw (both will work)*/
+    height: 630px;
     width: 400px;
+    /* width: 90vw;
+    max-width: 400px; */
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
